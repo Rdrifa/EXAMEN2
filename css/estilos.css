@@ -1,0 +1,61 @@
+.body{
+    background-image: url('https://i.postimg.cc/6qbNCKqq/photo-1518655048521-f130df041f66.avif');
+    background-position: center ;
+    background-size: cover;
+    margin: 0;
+}
+.header{
+    background-color: rgba(118, 30, 3, 0.619);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+img{
+    float: left;
+    height: 200px;
+    width: 400px;
+    padding: 2px 2px;
+    background-color: rgba(205, 133, 49, 0.795);
+    margin: auto;
+    box-shadow: 4px 4px 4px;
+    transition: all 0.8s ease;
+}
+img:hover{
+    background-color: rgba(32, 31, 31, 0.167);
+    transition: ALL 0.6 ease;
+    filter: brightness(30%);
+}
+section{
+    display: flex;
+}
+figcaption{
+    background-color: rgb(117, 75, 63);
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgba(198, 122, 60, 0.852);
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 5px;
+    text-align: justify;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(75, 25, 23);
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 2s;
+}
